@@ -21,7 +21,7 @@ public class MelhorSquadServices {
     }
 
     public String bordoesDoPedrim() {
-        List<String> bordoes = List.of("somente apenas", "quêIssuuuuu", "forget");
+        List<String> bordoes = List.of("somente apenas", "quêIssuuuuu", "forget", "não tem como", "ta mec");
         return bordoes.get(new Random().nextInt(bordoes.size()));
     }
 }
