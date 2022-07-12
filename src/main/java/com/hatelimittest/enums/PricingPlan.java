@@ -17,9 +17,9 @@ public enum PricingPlan {
 
     PROFESSIONAL(4);
 
-    private int bucketCapacity;
+    private final int bucketCapacity;
 
     public Bandwidth getLimit() {
-        return Bandwidth.classic(bucketCapacity, Refill.intervally(1, Duration.ofMinutes(1)));
+        return Bandwidth.classic(bucketCapacity, Refill.intervally(bucketCapacity, Duration.ofMinutes(1)));
     }
 }
