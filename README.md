@@ -24,12 +24,12 @@
 
 ##### :warning: O usuário Yago está sem regras para acessar a aplicação.
 
-### Testando a rota GET
+### Testando a rota POST
 ```bash
 curl --location --request POST 'localhost:8080/bordoes-pedrim' --header 'login: dog@santos.com.br'
 ```
 
-### Testando a rota POST
+### Testando a rota GET
 ```bash
 curl --location --request GET 'localhost:8080/bordoes-pedrim' --header 'login: dog@santos.com.br'
 ```
