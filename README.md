@@ -1,13 +1,13 @@
 <h1 align="center"> Testando a lib Bucket4j </h1>
 
-## :hammer: Banco de dados
+## :floppy_disk: Banco de dados
 
 ![Dados no H2](https://user-images.githubusercontent.com/12420676/178389167-3ebba768-b2f9-4183-935f-aa2d58b78a87.png)
 
 * URL      - [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
 * JDBC URL - jdbc:h2:mem:dogs
 
-## :hammer: Logins de Teste
+## :clipboard: Logins de Teste
 
 ![Logins para teste](https://user-images.githubusercontent.com/12420676/178389710-c76bbf81-b687-4502-a128-a35d820ba047.png)
 
