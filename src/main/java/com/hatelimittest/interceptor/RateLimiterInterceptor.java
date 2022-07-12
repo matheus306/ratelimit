@@ -22,11 +22,7 @@ public class RateLimiterInterceptor implements HandlerInterceptor {
 
     private final RateLimiter rateLimiter;
 
-    public boolean preHandle(
-            HttpServletRequest request,
-            HttpServletResponse response,
-            Object handler) {
-
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
 
         String urlPath = request.getRequestURI();
         String login = request.getHeader("login");
