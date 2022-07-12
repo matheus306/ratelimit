@@ -12,7 +12,7 @@
 
 ![Logins para teste](https://user-images.githubusercontent.com/12420676/178389710-c76bbf81-b687-4502-a128-a35d820ba047.png)
 
-- `Yago`: dog@awsman.coml.br
+- `Yago`: dog@awsman.com.br
 - `Victor`: dog@santos.com.br
 - `Matheus`: dog@mg.com.br
 
